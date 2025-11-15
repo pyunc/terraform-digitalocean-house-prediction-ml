@@ -1,0 +1,27 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfvars.backup
+
+*.tfvars
+*.tfvars.json
+.env
+terraform.tfstate*
+.terraform/
+
+# Environment files containing secrets
+.env
+*.env
+
+# Terraform variable files with secrets (if you choose to use them)
+# terraform.tfvars
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
